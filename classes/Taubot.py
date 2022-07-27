@@ -85,9 +85,9 @@ class TauBot(tk.Frame):
         self.pdfinvpath = r'C:\Users\Victor Song\OneDrive - Cordoba Corp\VSMAIN\_TAUBOTDATA\PDFINV'  # dir where invoices should be copy/pasted to (make sure you keep a copy, the script deletes the invoice)
         self.recordspath = r'C:\Users\Victor Song\OneDrive - Cordoba Corp\VSMAIN\_TAUBOTDATA\RECORDS'  # dir where script saves the records of each upload session
 
-        self.tau_url = 'https://login.na1prd.taulia.com/'
-        self.tau_user_email = 'victor.song@cordobacorp.com'
-        self.tau_user_password = 'Vgs483594$'
+        self.tau_url = 'client portal url'
+        self.tau_user_email = 'username'
+        self.tau_user_password = 'password'
         self.tau_sempra_id = 'df006cdf94d343209ab1709cac4410ab'
 
 
