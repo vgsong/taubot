@@ -76,7 +76,7 @@ def initiateup(GECKOFPATH):
     driver = webdriver.Firefox(executable_path=GECKOFPATH)
 
     # use get method from driver and open the taulia webside as a get http request
-    driver.get("https://login.na1prd.taulia.com/")
+    driver.get("client portal url")
 
     #make script wait a bit
     driver.implicitly_wait(15)
@@ -86,10 +86,10 @@ def initiateup(GECKOFPATH):
 
     # login page: emailfield and passw and the textfield for login information
     emailfield = driver.find_element_by_class_name("tau-input")
-    emailfield.send_keys('victor.song@cordobacorp.com')
+    emailfield.send_keys('email account')
 
     passw = driver.find_element_by_id("password")
-    passw.send_keys('Vgs483594$')
+    passw.send_keys('password here')
 
     buttsub = driver.find_element_by_id("loginSubmitButton")
     buttsub.submit()
